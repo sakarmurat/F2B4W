@@ -35,7 +35,7 @@ $status=$true
 #----------
 $RunPath = "c:\script\" #Should be the path where the script runs
 $Last_Hours=24 #How long ago was the last attack check? Min value = 1
-$WhiteList="10.10.10.10,10.10.10.11","95.130.171.243" # IP addresses that will not be blocked. You should only enter the IPv4 ip address. Please make sure that the IP addresses you enter here are in the correct format
+$WhiteList="10.10.10.10,10.10.10.11","192.168.0.100" # IP addresses that will not be blocked. You should only enter the IPv4 ip address. Please make sure that the IP addresses you enter here are in the correct format
 $NOA=10 #Number of Attempts / How many times has the above been tried over time. Max value = 49. A real user cannot make more than 50 wrong IP attempts in 24 hours.
 $Database = $Runpath+"IP_BAN_DB" # Default > c:\script\IB_BAN_DB
 $DeleteLog=365 #Delete logs from xx days ago
