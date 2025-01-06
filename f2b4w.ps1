@@ -33,6 +33,7 @@ $status=$true
 
 #==============================
 #----------
+# Remove-Item -Path C:\script\f2b4w.ps1 -Stream Zone.Identifier 
 $RunPath = "c:\script\" #Should be the path where the script runs
 $Last_Hours=24 #How long ago was the last attack check? Min value = 1
 $WhiteList="10.10.10.10,10.10.10.11","192.168.0.100" # IP addresses that will not be blocked. You should only enter the IPv4 ip address. Please make sure that the IP addresses you enter here are in the correct format
